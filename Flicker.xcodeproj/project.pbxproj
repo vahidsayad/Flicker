@@ -11,6 +11,17 @@
 		3D95E37C2840BEC100C81F02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E37B2840BEC100C81F02 /* ContentView.swift */; };
 		3D95E37E2840BED400C81F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D95E37D2840BED400C81F02 /* Assets.xcassets */; };
 		3D95E3812840BED400C81F02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D95E3802840BED400C81F02 /* Preview Assets.xcassets */; };
+		3D95E3892840C68600C81F02 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E3882840C68600C81F02 /* Constant.swift */; };
+		3D95E38C2840C6FA00C81F02 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E38B2840C6FA00C81F02 /* Network.swift */; };
+		3D95E391284111DA00C81F02 /* APIMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E390284111DA00C81F02 /* APIMethod.swift */; };
+		3D95E394284111F300C81F02 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E393284111F300C81F02 /* API.swift */; };
+		3D95E3962841121600C81F02 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E3952841121600C81F02 /* NetworkError.swift */; };
+		3D95E3982841124400C81F02 /* FlickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E3972841124400C81F02 /* FlickerService.swift */; };
+		3D95E39B2841127300C81F02 /* FlickerPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E39A2841127300C81F02 /* FlickerPhoto.swift */; };
+		3D95E39D284113C100C81F02 /* APIAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E39C284113C100C81F02 /* APIAuth.swift */; };
+		3D95E3A02841D59E00C81F02 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E39F2841D59E00C81F02 /* PhotosView.swift */; };
+		3D95E3A32841D5B100C81F02 /* PhotosView.ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95E3A22841D5B100C81F02 /* PhotosView.ViewModel.swift */; };
+		3D95E3A62841DA0E00C81F02 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3D95E3A52841DA0E00C81F02 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,16 @@
 		3D95E37B2840BEC100C81F02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D95E37D2840BED400C81F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D95E3802840BED400C81F02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D95E3882840C68600C81F02 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3D95E38B2840C6FA00C81F02 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		3D95E390284111DA00C81F02 /* APIMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMethod.swift; sourceTree = "<group>"; };
+		3D95E393284111F300C81F02 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		3D95E3952841121600C81F02 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		3D95E3972841124400C81F02 /* FlickerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerService.swift; sourceTree = "<group>"; };
+		3D95E39A2841127300C81F02 /* FlickerPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerPhoto.swift; sourceTree = "<group>"; };
+		3D95E39C284113C100C81F02 /* APIAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAuth.swift; sourceTree = "<group>"; };
+		3D95E39F2841D59E00C81F02 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		3D95E3A22841D5B100C81F02 /* PhotosView.ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D95E3A62841DA0E00C81F02 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +73,11 @@
 		3D95E3782840BEC000C81F02 /* Flicker */ = {
 			isa = PBXGroup;
 			children = (
+				3D95E3992841126500C81F02 /* Model */,
+				3D95E39E2841D56400C81F02 /* View */,
+				3D95E3A12841D5A500C81F02 /* ViewModel */,
+				3D95E38A2840C6EA00C81F02 /* Network */,
+				3D95E3872840C67900C81F02 /* Constants */,
 				3D95E3792840BEC000C81F02 /* FlickerApp.swift */,
 				3D95E37B2840BEC100C81F02 /* ContentView.swift */,
 				3D95E37D2840BED400C81F02 /* Assets.xcassets */,
@@ -65,6 +92,59 @@
 				3D95E3802840BED400C81F02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D95E3872840C67900C81F02 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3D95E3882840C68600C81F02 /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3D95E38A2840C6EA00C81F02 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3D95E392284111EC00C81F02 /* Services */,
+				3D95E393284111F300C81F02 /* API.swift */,
+				3D95E390284111DA00C81F02 /* APIMethod.swift */,
+				3D95E39C284113C100C81F02 /* APIAuth.swift */,
+				3D95E3952841121600C81F02 /* NetworkError.swift */,
+				3D95E38B2840C6FA00C81F02 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3D95E392284111EC00C81F02 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3D95E3972841124400C81F02 /* FlickerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3D95E3992841126500C81F02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D95E39A2841127300C81F02 /* FlickerPhoto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D95E39E2841D56400C81F02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D95E39F2841D59E00C81F02 /* PhotosView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D95E3A12841D5A500C81F02 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3D95E3A22841D5B100C81F02 /* PhotosView.ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +163,9 @@
 			dependencies = (
 			);
 			name = Flicker;
+			packageProductDependencies = (
+				3D95E3A52841DA0E00C81F02 /* SDWebImageSwiftUI */,
+			);
 			productName = Flicker;
 			productReference = 3D95E3762840BEC000C81F02 /* Flicker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +194,9 @@
 				Base,
 			);
 			mainGroup = 3D95E36D2840BEC000C81F02;
+			packageReferences = (
+				3D95E3A42841DA0E00C81F02 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 3D95E3772840BEC000C81F02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +223,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D95E39B2841127300C81F02 /* FlickerPhoto.swift in Sources */,
+				3D95E3982841124400C81F02 /* FlickerService.swift in Sources */,
+				3D95E39D284113C100C81F02 /* APIAuth.swift in Sources */,
 				3D95E37C2840BEC100C81F02 /* ContentView.swift in Sources */,
+				3D95E3A02841D59E00C81F02 /* PhotosView.swift in Sources */,
+				3D95E3962841121600C81F02 /* NetworkError.swift in Sources */,
+				3D95E391284111DA00C81F02 /* APIMethod.swift in Sources */,
+				3D95E3A32841D5B100C81F02 /* PhotosView.ViewModel.swift in Sources */,
+				3D95E3892840C68600C81F02 /* Constant.swift in Sources */,
+				3D95E38C2840C6FA00C81F02 /* Network.swift in Sources */,
+				3D95E394284111F300C81F02 /* API.swift in Sources */,
 				3D95E37A2840BEC000C81F02 /* FlickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +371,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,7 +381,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +401,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +411,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +437,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D95E3A42841DA0E00C81F02 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D95E3A52841DA0E00C81F02 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D95E3A42841DA0E00C81F02 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D95E36E2840BEC000C81F02 /* Project object */;
 }
